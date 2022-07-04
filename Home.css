@@ -525,20 +525,33 @@
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 1.5rem;
-  margin: 60px auto 0;
+  width: 390px;
+  margin: 0 auto;
+}
+
+.u-section-4 .u-btn-1 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-weight: 400;
+  background-image: none;
+  border-style: none;
+  margin: 40px auto 0;
 }
 
 .u-section-4 .u-text-2 {
   font-size: 3rem;
   font-weight: 700;
   font-family: Raleway, sans-serif;
-  margin: 20px 209px 0;
+  width: 722px;
+  margin: 36px auto 0;
 }
 
 .u-section-4 .u-gallery-1 {
   height: 1031px;
-  margin-top: 60px;
-  margin-bottom: 0;
+  margin-top: 40px;
+  margin-bottom: 60px;
   grid-gap: 17px 17px;
 }
 
@@ -643,17 +656,6 @@
   padding: 10px;
 }
 
-.u-section-4 .u-btn-1 {
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-style: normal;
-  font-weight: 400;
-  background-image: none;
-  border-style: none;
-  margin: 86px auto 60px;
-}
-
 @media (max-width: 1199px) {
   .u-section-4 .u-sheet-1 {
     min-height: 1293px;
@@ -661,12 +663,6 @@
 
   .u-section-4 .u-text-1 {
     margin-left: 385px;
-  }
-
-  .u-section-4 .u-text-2 {
-    width: 722px;
-    margin-left: 109px;
-    margin-right: 109px;
   }
 
   .u-section-4 .u-gallery-1 {
@@ -724,10 +720,6 @@
   .u-section-4 .u-over-slide-12 {
     min-height: 100px;
   }
-
-  .u-section-4 .u-btn-1 {
-    margin-bottom: 53px;
-  }
 }
 
 @media (max-width: 991px) {
@@ -742,8 +734,6 @@
   .u-section-4 .u-text-2 {
     width: auto;
     font-weight: 800;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .u-section-4 .u-gallery-1 {
@@ -767,6 +757,7 @@
 
   .u-section-4 .u-gallery-1 {
     height: 4395px;
+    margin-bottom: 56px;
   }
 
   .u-section-4 .u-gallery-inner-1 {
@@ -781,23 +772,24 @@
 
   .u-section-4 .u-text-1 {
     width: auto;
-    margin-top: 60px;
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
   }
 
+  .u-section-4 .u-btn-1 {
+    margin-top: -43px;
+  }
+
   .u-section-4 .u-text-2 {
     font-size: 2.25rem;
-    margin-top: 30px;
+    margin-top: 21px;
   }
 
   .u-section-4 .u-gallery-1 {
     height: 2767px;
     margin-top: 30px;
-  }
-
-  .u-section-4 .u-btn-1 {
-    margin-bottom: -397px;
+    margin-bottom: 60px;
   }
 } .u-section-5 {
   background-image: none;
